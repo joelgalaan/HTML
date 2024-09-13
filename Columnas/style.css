@@ -1,0 +1,27 @@
+body{
+    background-color: antiquewhite;
+}
+p{
+    column-count: 3;
+    column-rule-style: solid;
+    column-width: 40px;
+    column-rule: 2px solid red;
+}
+main{
+    color: black;
+
+p::selection {
+    color: yellowgreen;
+    background-color: aquamarine;
+}
+}
+h1:hover{
+    color: blueviolet;
+}
+
+input:valid{
+    color: blue;
+}
+input:invalid{
+    color: red;
+}
