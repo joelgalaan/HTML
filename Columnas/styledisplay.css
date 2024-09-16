@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0); 
+    margin: 20px;        
+    font-size: 30px;
+    outline: greenyellow dotted 20px;
+}
+.box1:hover{
+    outline: black dotted 20px ;
+}
