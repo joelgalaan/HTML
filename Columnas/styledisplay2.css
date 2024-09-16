@@ -1,66 +1,48 @@
-body{
+body {
     margin: 0px;
 }
-.box1{
-    display: relative;
-    right: 100px;
+
+.container {
+    position: relative; /* Cambia display a position */
+    right: 10px;
     width: 200px;
     height: 200px;
-    background-color: rgb(255, 0, 0); 
-    margin: 20px;        
+    background-color: rgb(255, 0, 0);
+    margin: 20px;
     font-size: 30px;
     border: solid black 3px;
 }
-.box2{
-    display: relative;
+
+.box{
+    position: relative; /* Cambia display a position */
     width: 20px;
-    top: 100px;
     height: 20px;
-    background-color: rgb(136, 255, 0); 
-    margin: 20px;        
-    font-size: 30px;
+    background-color: rgb(136, 255, 0);
+    margin: 20px;
     border: 2px solid darkblue;
     border-radius: 20px;
     font-size: 20px;
     text-align: center;
-    display:
+    margin-left: auto;
+    margin-right: auto;
 }
-.box3{
-    display: relative;
-    width: 20px;
-    height: 20px;
-    background-color: rgb(136, 255, 0); 
-    margin: 20px;        
-    font-size: 30px;
-    border: 2px solid darkblue;
-    border-radius: 20px;
-    font-size: 20px;
-    text-align: center;
-    display:
+
+.box-1 {
+    top: -34px;
+    right: 97px;
 }
-.box4{
-    display: relative;
-    width: 20px;
-    height: 20px;
-    background-color: rgb(136, 255, 0); 
-    margin: 20px;        
-    font-size: 30px;
-    border: 2px solid darkblue;
-    border-radius: 20px;
-    font-size: 20px;
-    text-align: center;
-    display:
+
+.box-2 {
+    top: -77px;
+    left: 100px;
 }
-.box5{
-    display: relative;
-    width: 20px;
-    height: 20px;
-    background-color: rgb(136, 255, 0); 
-    margin: 20px;        
-    font-size: 30px;
-    border: 2px solid darkblue;
-    border-radius: 20px;
-    font-size: 20px;
-    text-align: center;
-    display:
+
+.box-3 {
+    top: 80px;
+    left: 100px;
+}
+
+.box-4 {
+    top: 36px;
+    left: -98px;
 }
