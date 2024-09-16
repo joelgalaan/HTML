@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+}
+.texto{
+    float: left;
+    width: 50%;
+}
+.cuadro{
+    float: right;
+    width: 50%;
+}
