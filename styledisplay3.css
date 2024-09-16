@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ff0000, #0044cc); /* Degradado de azul claro a azul oscuro */
+}
+
+.container{
+    position: relative;
+    margin-right: auto;
+    margin-top: 130px;
+    margin-left: auto;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);     
+    border-radius: 1000px;
+    outline: solid rgb(231, 231, 231) 20px;
+    box-shadow: black ;
+    border: solid black 1px;
+    box-shadow: 0 40px 1px rgba(0, 0, 0, 0.3); 
+    z-index: 2;
+}
+.box-1{
+    position: relative;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-left: auto;
+    width: 570px;
+    height: 570px;
+    background-color: rgb(255, 255, 255);     
+    border-radius: 1000px;
+    outline: solid rgb(255, 0, 0) 10px;
+    box-shadow: black ;
+    border: solid black 1px;
+    z-index: 2;
+}
+.box-2 {
+    position: absolute; /* Cambia a absolute si quieres centrarlo con transform */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar el div */
+    width: 450px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);     
+    border-radius: 50%; /* Redondea el div en un círculo */
+    border: solid rgb(255, 0, 0) 30px; /* Borde negro delgado */
+    z-index: 2;    
+}
+.box-3 {
+    position: absolute; /* Cambia a absolute si quieres centrarlo con transform */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar el div */
+    width: 320px;
+    height: 320px;
+    background-color: rgb(255, 255, 255);     
+    border-radius: 50%; /* Redondea el div en un círculo */
+    border: solid rgb(255, 0, 0) 30px; /* Borde negro delgado */
+    z-index: 2;
+}
+.box-4 {
+    position: absolute; /* Cambia a absolute si quieres centrarlo con transform */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar el div */
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);     
+    border-radius: 50%; /* Redondea el div en un círculo */
+    border: solid rgb(255, 0, 0) 30px; /* Borde negro delgado */
+    z-index: 2;
+}
+.box-5 {
+    position: absolute; /* Cambia a absolute si quieres centrarlo con transform */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar el div */
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 0, 0);     
+    border-radius: 50%; /* Redondea el div en un círculo */
+    border: solid rgb(255, 255, 255) 5px; /* Borde negro delgado */
+    z-index: 2;
+}
+.box-6 {
+    position: fixed; /* O absolute si quieres que esté en un contenedor */
+    top: 49%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar la línea */
+    width: 590px; /* Ajusta el ancho de la línea */
+    height: 1px; /* Ajusta el grosor de la línea */
+    background-color: black; /* Color de la línea */
+    border: solid black 5px; /* Estilo de borde si quieres una línea más gruesa */
+    z-index: 3; /* Asegúrate de que esté por encima de otros elementos */
+}
+.box-7 {
+    position: fixed; /* O absolute si quieres que esté en un contenedor */
+    top: 48.6%; /* Ajusta la posición verticalmente según sea necesario */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar la línea */
+    width: 1px; /* Ajusta el grosor de la línea */
+    height: 592px; /* Ajusta la altura de la línea */
+    background-color: black; /* Color de la línea */
+    border: solid black 5px; /* Estilo de borde si quieres una línea más gruesa */
+    z-index: 3; /* Asegúrate de que esté por encima de otros elementos */
+}
