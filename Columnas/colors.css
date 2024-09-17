@@ -1,35 +1,36 @@
 body{
     margin: 0;
+    
 }
 header{
     float: left;
     background-color: red;
     height: 100px;
-    width: 100%;
+    width: 179vh;
 }
 nav{
     float: left;
     background-color: blue;
     height: 50px;
-    width: 100%;
+    width: 179vh;
 }
 section{
     float: left;
     background-color: pink;
     height: 629px;
     float: left;
-    width: 68%;
+    width: 100vh;
 }
 aside{
     float: right;
     background-color: violet;
     height: 629px;
     float: right;
-    width: 30%;
+    width: 60vh;
 }
 footer{
     float: left;
     background-color: greenyellow;
     height: 100px;
-    width: 100%;
+    width: 179vh;
 }

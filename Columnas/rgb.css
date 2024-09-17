@@ -1,0 +1,109 @@
+body{
+    margin: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rgb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px
+}
+.colores{
+    background-color: antiquewhite;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.primarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secundarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.red{
+    border-radius: 50%;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.red1{
+    position: relative;
+    border-radius: 50%;
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    margin: -29px;
+    top: 60px;
+    left: 135px;
+    z-index: 2;
+    mix-blend-mode: lighten;
+}
+.blue {
+    border-radius: 50%;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.blue1 {
+    position: relative;
+    left: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin: -29px;
+    mix-blend-mode: lighten;
+}
+.green {
+    border-radius: 50%;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.green1 {
+    right: 20px;
+    position: relative;
+    border-radius: 50%;
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    margin: -29px;
+}
+.purple{
+    border-radius: 50%;
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    mix-blend-mode: overlay;
+}
+
+.cyan{
+    border-radius: 50%;
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.yellow{
+    border-radius: 50%;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
