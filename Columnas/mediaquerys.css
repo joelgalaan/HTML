@@ -1,77 +1,83 @@
-@media (width >= 320px) {
-    body{
+@media (width >=320px) {
+    body {
         background-color: aqua;
         margin: 10px;
     }
 }
 
 @media (min-width: 768px) {
-    body{
+    body {
         background-color: rgb(0, 255, 21);
     }
 }
 
 @media (min-width: 1024px) {
-    body{
+    body {
         background-color: rgb(255, 0, 0);
     }
 }
 
-@media (width >= 320px){
-    .orange{
+
+@media (min-width: 320px) {
+    .orange {
         display: flex;
-        height: 100px ;
+        height: 10vh;
         width: 100%;
         background-color: orange;
         margin-top: 10px;
     }
-}
-
-@media (width >= 320px){
-    .green{
-        height: 200px ;
+    .green {
+        height: 10vh;
         width: 100%;
         background-color: green;
         margin-top: 10px;
     }
-}
-
-@media (width >= 320px){
-    .blue{
-        height: 100px ;
+    .blue {
+        height: 10vh;
         width: 100%;
         background-color: blue;
         margin-top: 10px;
     }
-}
-
-@media (width >= 320px){
-    .gray{
-    height: 50px ;
-    width: 50%;
-    background-color: gray;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    }
-}
-
-/* Estilos generales para los elementos .gray */
-
-
-/* Media query para pantallas de 768px o más */
-@media (width >= 768px) {
     .gray {
-        height: 50px;
-        width: 100%; /* El ancho sigue siendo 100% pero el contenedor manejará la disposición */
+        height: 10vh;
+        width: 100%;
+        background-color: gray;
+        margin-top: 10px;
     }
+    
+}
 
-    .gray-container {
-        display: grid; /* Usa grid para colocar los elementos en dos columnas */
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
-        gap: 10px; /* Espacio entre los elementos */
+@media (min-width: 768px) {
+    .gray {
+        float: left;
+        background-color: gray;
+        width: 49%;
+        margin: 0.5%;
     }
 }
 
-
+@media (min-width: 1024px) {
+    .orange{
+        float: left;
+        width: 24%;
+        width: 48vw;
+        margin: 0.5%;
+    }
+    .gray {
+        background-color: gray;
+        width: 24%;
+        margin: 0.5%;
+        
+    }
+    .blue {
+        float: left;
+        background-color: blue;
+        width: 24%;
+        margin: 0.5%;
+        width: 31vw;
+    }
+    .green{
+        float: left;
+    }
+    
+}
