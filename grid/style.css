@@ -68,7 +68,7 @@
         width: 100vw;
         font-size: 30px;
         align-items: center;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
         /* Tres columnas iguales */
         grid-template-rows: auto auto auto auto;
         /* Cuatro filas automáticas */

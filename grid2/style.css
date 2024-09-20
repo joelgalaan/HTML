@@ -1,0 +1,74 @@
+body {
+    font-size: 15px;
+    margin: 0px;
+    color: white;
+}
+div{
+    margin: 0px;
+    padding: 30px;
+    height: 60vh;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+nav{
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    border: white 2px solid;
+    border-radius: 10px;
+
+}
+.divcontainer{
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;  
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 90vw;
+}
+/* MOBILE */
+@media (width >=375px) {
+    body {
+        display: grid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        background: blue;
+    }
+    .sedans{
+        background-color:  hsl(31, 77%, 52%);
+        grid-row: 1;
+        
+    }
+    .suvs {
+        grid-column: 1;
+        grid-row: 2;
+        background-color: hsl(184, 100%, 22%)
+    }
+
+    .luxury {
+        grid-column: 1;
+        grid-row: 3;
+        background-color: hsl(184, 100%, 50%);
+    }
+    
+    .attribution {
+        grid-column: 1;
+        grid-row: 4;
+    
+    }
+}
+/* PC */
+@media (width >=1440px) {
+    body {
+        font-size: 15px;
+        background: red;
+        margin: 0px;
+    }
+}
