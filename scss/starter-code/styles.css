@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* LETRA */
 div {
   font-family: Josefin, sans-serif;
@@ -7,18 +8,25 @@ div {
 /* FOTOPERFIL */
 .profile-container {
   display: flex;
-  justify-content: center; /* Centra la imagen horizontalmente */
-  align-items: center; /* Centra la imagen verticalmente */
+  justify-content: center;
+  /* Centra la imagen horizontalmente */
+  align-items: center;
+  /* Centra la imagen verticalmente */
   margin-right: 10px;
 }
 
 .profile-pic {
-  width: 50px; /* Tamaño de la imagen */
-  height: 50px; /* Tamaño de la imagen */
-  border-radius: 50%; /* Hace la imagen redonda */
+  width: 50px;
+  /* Tamaño de la imagen */
+  height: 50px;
+  /* Tamaño de la imagen */
+  border-radius: 50%;
+  /* Hace la imagen redonda */
   -o-object-fit: cover;
-     object-fit: cover; /* Asegura que la imagen se ajuste correctamente al contenedor */
-  border: 3px solid #333; /* Opcional: agrega un borde alrededor de la imagen */
+  object-fit: cover;
+  /* Asegura que la imagen se ajuste correctamente al contenedor */
+  border: 3px solid #333;
+  /* Opcional: agrega un borde alrededor de la imagen */
 }
 
 body {
@@ -39,9 +47,12 @@ body {
   background-color: white;
   border: 1px solid #ccc;
   padding: 5px;
-  width: 1024px; /* Ancho máximo de la barra */
-  max-width: 100%; /* Asegurarse de que no sobrepase el ancho de la pantalla en pantallas pequeñas */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  width: 1024px;
+  /* Ancho máximo de la barra */
+  max-width: 100%;
+  /* Asegurarse de que no sobrepase el ancho de la pantalla en pantallas pequeñas */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra ligera */
 }
 
 /* Estilos de la barra de búsqueda */
@@ -50,7 +61,8 @@ body {
   padding: 10px;
   border-radius: 20px;
   outline: none;
-  width: 100%; /* Ocupar todo el espacio disponible dentro del contenedor */
+  width: 100%;
+  /* Ocupar todo el espacio disponible dentro del contenedor */
   font-size: 16px;
 }
 
@@ -61,25 +73,22 @@ body {
 /* Ajuste responsivo para pantallas pequeñas */
 @media (max-width: 600px) {
   .search-container {
-    width: 90%; /* Reducir el tamaño del contenedor en pantallas pequeñas */
+    width: 90%;
+    /* Reducir el tamaño del contenedor en pantallas pequeñas */
   }
+
   .search-button {
     padding: 10px 15px;
   }
 }
+
 .header {
   display: flex;
-  background-color: red;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 70px;
-  border-bottom: black solid 1px;
 }
 
 .header2 {
   display: flex;
-  background-color: green;
   justify-content: center;
   align-items: center;
 }
@@ -101,39 +110,81 @@ body {
 }
 
 .nav2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .div1 {
-  background-color: #218838;
   padding: 1px;
   width: 100%;
   height: 70px;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Solo sombra por debajo */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  /* Solo sombra por debajo */
 }
 
-.nav-arrows {
-  font-size: 30px;
-  margin-left: 5px;
+.flex{
+  font-size: 20px;
+  margin-left: 1px;
   color: gray;
+
+}
+
+.nav2>a {
+  display: inline-block;
+  /* Necesario para aplicar padding y background */
+  margin: 6px;
+  color: gray;
+  /* Color del texto por defecto */
+  text-decoration: none;
+  /* Opcional: quita el subrayado de los enlaces */
+  padding: 10px;
+  /* Añade padding para que el área del enlace sea más grande */
+  transition: background-color 0.3s;
+  /* Suaviza la transición del color de fondo */
+}
+
+.nav2>a:hover {
+  background-color: gray;
+  /* Fondo negro al pasar el cursor */
+  color: white;
+  /* Cambia el color del texto a blanco para contrastar con el fondo negro */
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+.container {
   justify-content: center;
   display: flex;
   align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin: 10px;
+  margin-top: 40px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
-
-.nav2 > a {
-  display: inline-block; /* Necesario para aplicar padding y background */
-  margin: 6px;
-  color: gray; /* Color del texto por defecto */
-  text-decoration: none; /* Opcional: quita el subrayado de los enlaces */
-  padding: 10px; /* Añade padding para que el área del enlace sea más grande */
-  transition: background-color 0.3s; /* Suaviza la transición del color de fondo */
+.welcom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 15px;
+  margin: 0px;
 }
-
-.nav2 > a:hover {
-  background-color: gray; /* Fondo negro al pasar el cursor */
-  color: white; /* Cambia el color del texto a blanco para contrastar con el fondo negro */
-}/*# sourceMappingURL=styles.css.map */
+.welcom > p{
+  margin: 10px; 
+}
+.welcom > .x{
+  margin-left: 120px;
+  font-size: 20px;
+  
+}
+.welcom > .EMAIL{
+  margin: 10px;
+}
+.welcom > .subscribe{
+  background-color: #da552f;
+  padding: 10px;
+  border-radius: 5px;
+}
